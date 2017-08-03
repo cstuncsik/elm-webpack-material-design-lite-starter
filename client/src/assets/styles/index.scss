@@ -1,0 +1,15 @@
+@import 'material-design-icons';
+
+@import '~material-design-lite/src/color-definitions';
+$color-primary: $palette-blue-400;
+$color-primary-dark: $palette-purple-A700;
+$color-accent: $palette-orange-A200;
+
+@import '~material-design-lite/src/variables';
+$preferred_font: 'Saira', 'Helvetica', 'Arial', sans-serif;
+
+@import '~material-design-lite/src/material-design-lite.scss';
+
+body {
+  font-family: $preferred_font;
+}

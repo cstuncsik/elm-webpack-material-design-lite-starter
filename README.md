@@ -1,1 +1,1 @@
-# elm-webpack-material-design-lite-starter
+# Elm Webpack Material Design Lite Starter
