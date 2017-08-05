@@ -1,5 +1,3 @@
-const GoogleFontsPlugin = require('google-fonts-webpack-plugin')
-
 module.exports = {
   entry: './client/src/index.js',
   output: {
@@ -16,13 +14,5 @@ module.exports = {
         }
       }
     ]
-  },
-  plugins: [
-    new GoogleFontsPlugin({
-      fonts: [
-        {family: 'Saira', variants: ['300', '400', '500', '700']}
-      ],
-      formats: ['ttf', 'woff', 'woff2']
-    })
-  ]
+  }
 }

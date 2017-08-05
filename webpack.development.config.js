@@ -18,7 +18,7 @@ module.exports = webpackMerge(commonConfig, {
       },
       {
         test: /\.(gif|png|jpe?g|ttf|eot|svg|woff2?)$|\?/,
-        use: 'file-loader'
+        use: 'url-loader'
       }
     ]
   },
